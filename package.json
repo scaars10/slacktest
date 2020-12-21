@@ -1,0 +1,20 @@
+{
+  "name": "slack-lonely-bot",
+  "version": "0.1.0",
+  "description": "Lonely Bot",
+  "main": "src",
+  "scripts": {
+    "start": "node src/anotherBot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "scaars10",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^2.3.4",
+    "@slack/rtm-api": "^5.0.5",
+    "@slack/web-api": "^5.14.0",
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
